@@ -19,6 +19,8 @@
 //! assert_eq!(0, xor(0, 0));
 //! ```
 //! 
+//! # Documentation
+//! For full documentation, check here: [Documentation](https://pejoccy.github.io/logic_gates)
 
 /// Implements a boolean `and` gate taking as input two bits and returns a bit as output
 pub fn and(a: u8, b: u8) -> u8 {

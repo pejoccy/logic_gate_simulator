@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pejoccy/logic_gate_simulator.svg?branch=master)](https://travis-ci.org/pejoccy/logic_gate_simulator)
+[![Build Status](https://app.travis-ci.com/pejoccy/logic_gate_simulator.svg?branch=main)](https://travis-ci.org/pejoccy/logic_gate_simulator)
 
 # logic_gates
 
@@ -21,3 +21,5 @@ assert_eq!(1, xor(0, 1));
 assert_eq!(0, xor(0, 0));
 ```
 
+## Documentation
+For full documentation, check here: [Documentation](https://pejoccy.github.io/logic_gates)
