@@ -1,1 +1,1 @@
-https://app.travis-ci.com/pejoccy/logic_gate_simulator.svg?token=xHqenLqVs1aQsgvpzxkV&branch=main
+[![Build Status](https://app.travis-ci.com/pejoccy/logic_gate_simulator.svg?token=xHqenLqVs1aQsgvpzxkV&branch=main)](https://app.travis-ci.com/pejoccy/logic_gate_simulator)
