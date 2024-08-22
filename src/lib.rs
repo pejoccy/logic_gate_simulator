@@ -5,28 +5,14 @@
 //! 
 //! # Examples
 //! ```
-//! fn and(a: u8, b: u8) -> u8 {
-//!   match (a, b) {
-//!     (1, 1) => 1,
-//!     _ => 0
-//!   }
-//! }
+//! use logic_gates::{and, xor};
 //! 
-//! # Tests
 //! assert_eq!(1, and(1, 1));
 //! assert_eq!(0, and(1, 0));
 //! assert_eq!(0, and(0, 1));
 //! assert_eq!(0, and(0, 0));
 //! 
 //! 
-//! fn xor(a: u8, b: u8) -> u8 {
-//!   match (a, b) {
-//!     (1, 0) | (0, 1) => 1,
-//!     _ => 0
-//!   }
-//! }
-//! 
-//! # Tests
 //! assert_eq!(0, xor(1, 1));
 //! assert_eq!(1, xor(1, 0));
 //! assert_eq!(1, xor(0, 1));
