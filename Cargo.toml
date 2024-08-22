@@ -2,5 +2,11 @@
 name = "logic_gates"
 version = "0.1.0"
 edition = "2021"
+readme = "README.md"
+repository = "https://github.com/pejoccy/logic_gate_simulator"
+keywords = ["logic", "gates", "xor-gate", "and-gate"]
 
 [dependencies]
+
+[badges]
+travis-ci = { repository = "pejoccy/logic_gate_simulator" }
