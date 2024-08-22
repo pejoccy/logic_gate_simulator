@@ -14,7 +14,7 @@ pub fn half_adder_input_output() -> Vec<((u8, u8), (Sum, Carry))> {
 
 /// This function implements a half adder using primitive gates
 fn half_adder(a: u8, b: u8) -> (Sum, Carry) {
-    return (xor(a, b), and(a, b));
+    (xor(a, b), and(a, b))
 }
 
 #[test]
